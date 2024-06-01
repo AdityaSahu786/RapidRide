@@ -1,5 +1,6 @@
 import React from 'react'
 import AutocompleteAddress from './AutocompleteAddress'
+import Cars from './Cars'
 
 
 function Booking() {
@@ -9,6 +10,7 @@ function Booking() {
         <h2 className='text-[20px] font-semibold'>Booking</h2>
         <div className='border-[1-px] p-5 rounded-md'  style={{ height: '100vh' }}>
         <AutocompleteAddress/>
+        <Cars/>
         </div>
         
     </div>
